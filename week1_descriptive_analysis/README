@@ -1,0 +1,24 @@
+# Week 1 – Descriptive Analysis
+
+## Objective
+Descriptive analysis of sales to understand performance by region, category, and time.
+
+## Dataset
+Sample Superstore datasets
+
+## Tools Used
+Microsoft Excel
+
+## Analysis Performed
+- Pivot tables for sales by region, category, and month
+- Summary of total, average, max, min sales
+- Charts for visualizing trends
+
+## Key Insights
+- West region has the highest sales with total of 725.46K USD, while the South region has the lowest sales with total of 391.72K USD. 
+- Within the West region, California contributes the most to total sales, totaling 457.69K USD.
+- Technology contributes the highest sales, totaling 836.15K USD, while Office Supplies records the lowest sales at 719.05K USD.
+- Within the Technology category, Phones contribute the most to total sales, amounting to 330.00K USD
+- Sales peaked in the fourth quarter of 2017, while the lowest sales were recorded in the first quarter of 2014.
+- Sales tend to decline at the beginning of each year and increase toward the end of the year, indicating seasonal fluctuations.
+
