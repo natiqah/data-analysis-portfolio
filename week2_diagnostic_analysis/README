@@ -1,0 +1,31 @@
+# Week 2 – Diagnostic Analysis
+
+## Objective
+Diagnostic analysis of sales and profit to understand profitability patterns, impact of discounts, and efficiency by region and category.
+
+## Dataset
+Sample Superstore datasets (same as Week 1)
+
+## Tools Used
+Microsoft Excel
+
+## Analysis Performed
+- Pivot Table 1: Sales & Profit by Region → State)
+- Pivot Table 2: Sales & Profit by Category → Sub-category
+- Pivot Table 3: Profit Ratio by Region (Profit ÷ Sales)
+- Pivot Table 4: Profit Ratio by Category (Profit ÷ Sales)
+- Pivot Table 5: Sales, Profit, Profit Ratio by Discount Group
+- Discount vs Profit scatter plot (from raw table)
+- Calculated total loss, profit ratios, and highlighted negative profit orders
+
+## Key Insights
+- West region contributes the highest sales and profits ($725,457.82 USD and $108,418.45 USD), while Central region has the lowest profit ($39,706.36 USD).
+- Technology category has the highest profit ratio; Furniture has the lowest (<5%).
+- Copier sub-category achieves high profit despite low sales; Tables sub-category under Furniture causes the largest loss (-$17,725.48 USD).
+- Higher discounts generally lead to losses, even when fewer items are sold.
+- Total losses across all orders amount to $322,582.13 USD.
+
+## Recommendations / Next Steps
+- Focus on improving profitability in the Furniture category  
+- Review discount strategy to avoid excessive losses  
+- Explore region-specific strategies for low-profit regions 
