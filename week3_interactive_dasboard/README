@@ -1,0 +1,35 @@
+#Week 3 – Dashboard Analysis
+
+##Objective
+Create an interactive dashboard summarizing key metrics and business insights from the Sample Superstore dataset. The goal is to provide a high-level executive view for decision-makers.
+
+##Dataset
+Sample Superstore dataset (same as Week 1 & 2)
+
+##Tools Used
+Microsoft Excel
+- Pivot Tables
+- Slicers / Filters
+- Charts: Bar / Column / Scatter Plot
+- KPI cards
+
+##Dashboard Contents
+- KPI Cards:
+	Total Sales
+	Total Profit
+	Total Items Sold
+	Total Orders Received
+- Charts:
+	Sales and Profit by Region
+	Profit Ratio by Category
+	Discount vs Profit (Scatter Plot) - Static chart
+- Interactive Elements:
+	Slicers for Region, Category, and Sub-Category
+	Filters update both charts and KPI cards dynamically
+
+##Key Insights
+- West region and Technology category contribute the highest sales and profit.
+- Central region shows consistently low profitability, highlighting cost or discount concerns.
+- Furniture category has the lowest profit ratio.
+- Higher discounts are strongly associated with lower profits, even if sales volume is high.
+- Total items sold and total orders received peak in Q4, indicating seasonal demand patterns.
