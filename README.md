@@ -3,20 +3,19 @@
 This repository contains my data analysis and data visualization projects
 as part of my structured transition into a **Data Analyst** role.
 
-I am currently focusing on **Excel-based analysis**, with projects designed
-to solve common business problems such as improving profit, reducing cost,
-and understanding performance trends.  
-**Power BI projects will be added starting next week.**
+I have completed **Excel-based analysis** (Weeks 1–3) and am currently
+working on **Power BI projects** (Week 4 onwards) to further develop
+interactive dashboards and data modeling skills.
 
 ---
 
 ## 🔧 Tools & Skills
 
-### Currently Using
+### Done
 - **Excel**: Data cleaning, formulas, Pivot Tables, dashboards, insights reporting
 
-### Starting Next
-- **Power BI** *(starting next week)*: Data modeling, DAX, interactive dashboards
+### In Progress
+- **Power BI**: Data modeling, DAX, interactive dashboards
 
 ### Planned
 - **SQL**: Data extraction and basic analysis
@@ -41,15 +40,18 @@ and understanding performance trends.
 
 ---
 
-### Power BI Projects *(coming soon)*
+### Power BI Projects (Weeks 4 onwards) - *In progress*
 - Customer & Profit Dashboard
 - Sales Trend Analysis with Interactive Filters
+
+📁 Files:  
+- `week4_powerbi_superstore_data_modelling.pbix`
 
 ---
 
 ## 📈 Learning Progress
 - **Week 1–3**: Excel analysis & dashboard development ✅
-- **Week 4**: Power BI fundamentals & first dashboard (upcoming)
+- **Week 4**: Power BI fundamentals & first dashboard (in progress)
 - **Future**: SQL and Python for deeper analysis
 
 ---
