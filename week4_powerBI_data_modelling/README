@@ -1,0 +1,77 @@
+#Week 4 – Power BI Data Modeling & Core DAX Measures
+
+##Objective
+Focuses on building a foundation for interactive dashboards by creating clean data models and core business measures by:
+- Prepare and clean transactional sales data
+- Create a dedicated Date table for time-based analysis
+- Build reusable DAX measures for business KPIs
+- Ensure model accuracy, consistency, and usability for future reporting
+
+##Dataset: 
+Sample Superstore dataset (Kaggle)
+
+##Tool: 
+Power BI Desktop
+DAX (Data Analysis Expressions)
+Power Query Editor
+Excel (for initial dataset understanding)
+
+#Data Preparation
+- Imported Sample Superstore dataset into Power BI Desktop
+- Renamed table to Sales for clarity and readability
+- Verified and corrected data types (dates, numeric, text)
+- Created derived columns from Order Date:
+	Year
+	Month Name
+	Month Number (used for sorting Month Name chronologically)
+- Ensured consistent data structure for future dashboards
+
+#Date Table Creation
+- Created a dedicated Date table using DAX:
+	Continuous date range covering all transactions
+	Attributes: Year, Month Name, Month Number, Year-Month
+- Established relationship:
+	Date[Date] → Sales[Order Date]
+- Marked as the official date table
+- Hidden raw date columns in Sales to enforce consistent usage
+
+#Data Model Design
+- Fact table: Sales
+- Dimension table: Date
+- Organized model for easy readability and scalability
+- Unused columns hidden; measures grouped under Sales table
+
+#Core DAX Measures
+- Measures created in the Sales table to track key performance indicators (KPIs):
+
+Measure				Description
+Total Sales			Sum of all sales
+Total Profit		Sum of all profit
+Total Quantity		Sum of all quantity sold
+Profit Margin		Ratio of profit to sales
+
+- Measures are fully filter-responsive and reusable in dashboards.
+- Additional Time Intelligence Measure (Optional):
+	A Year-over-Year (YoY) Sales measure was created using a dedicated Date table to support time-based analysis and ensure proper model design. This measure is not visualized in Week 4 and is intended for future dashboard enhancements in Week 5.
+
+##Model Validation
+- Ensured:
+	Correct data types
+	Proper relationships between tables
+	Measures calculate accurately and respond to filters
+	Fields pane is organized, unnecessary columns hidden
+	No visual or calculation errors
+
+##Skills
+- Skills:
+	Data cleaning and transformation (Power Query)
+	Data modeling (fact and dimension tables)
+	DAX calculations for business KPIs
+	Time-based analysis
+	Model validation & troubleshooting
+
+##Outcome
+- By the end of Week 4:
+	A clean, validated data model ready for interactive dashboards
+	Core business measures implemented
+	A strong foundation for Weeks 5–6 dashboard development and insights
