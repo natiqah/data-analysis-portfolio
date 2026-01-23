@@ -1,0 +1,70 @@
+#Week 5 – Power BI Interactive Dashboard & Business Analysis
+
+📌 Objective
+To analyze sales performance, profitability, and discount impact through dynamic visuals and slicer-driven exploration.
+
+This project focuses on transforming a validated Power BI data model into an interactive business dashboard. The dashboard simulates a real-world business intelligence report used by management to monitor performance and identify improvement opportunities.
+
+🗂️ Dataset: 
+Sample Superstore dataset (Kaggle)
+
+🛠️ Tool: 
+- Power BI Desktop
+- DAX (CALCULATE, SAMEPERIODLASTYEAR, DIVIDE)
+- Power Query
+
+🎯 Business Questions Addressed:
+1. How is overall sales and profit performance trending over time?
+2. Which regions and product categories generate the highest revenue?
+3. Which sub-categories are profitable or loss-making?
+4. How do discounts affect profitability?
+5. Which products contribute most to total profit?
+
+📊 Dashboard Structure:
+
+Page 1 – Executive Sales Overview:
+- Designed for management-level decision making.
+- Key visuals include:
+	KPI cards: Total Sales, Total Profit, Profit Margin (optional YoY)
+	Monthly sales trend analysis
+	Sales by region
+	Profit by category
+	Global slicers for Year, Region, and Segment (synced across pages)
+
+Page 2 – Product & Discount Analysis:
+- Focused on identifying performance drivers and risks.
+- Key visuals include:
+	Profit by sub-category
+	Discount vs Profit scatter analysis
+	Top 10 products by profit
+	Page-level slicers for category-based exploration
+
+🔄 Interactivity Features:
+- Cross-filtering between all visuals
+- Synced slicers across report pages
+- Dynamic KPI updates based on user selections
+
+📈 Key Insights:
+- Sales increase toward the end of the year but tend to decline at the beginning of each year, indicating clear seasonal patterns.
+- The West region records the highest sales at $725.46K, while the South region generates the lowest sales at $391.72K.
+- The Technology category contributes the highest sales ($836.15K), whereas Office Supplies records the lowest sales ($719.05K).
+- Copiers are the most profitable sub-category with $55.62K in profit, while Tables are consistently loss-making with –$17.73K in profit.
+- Several sub-categories experience declining profitability as discount levels increase.
+- Regional performance varies significantly across product categories.
+- Discount strategies impact product groups differently, suggesting the need for category-specific discount optimization.
+
+* Insights may vary depending on applied filters and slicer selections.
+
+🧠 Skills Demonstrated:
+- Data modeling using star schema principles (Dimension tables and Fact tables)
+- DAX measure development
+- Time intelligence fundamentals (YoY comparison)
+- Interactive dashboard design
+- Business KPI analysis
+- Data storytelling and visualization best practices
+
+🛠️ Tools & Technologies:
+- Data modeling & relationships
+- Interactive slicers and cross-filtering
+
+📂 Files: 'Week5_PowerBI_Superstore_Dashboard.pbix'
