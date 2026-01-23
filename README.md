@@ -41,17 +41,18 @@ interactive dashboards and data modeling skills.
 ---
 
 ### Power BI Projects (Weeks 4 onwards) - *In progress*
-- Customer & Profit Dashboard
+- Executive Summary Dahsboard
+- Product & Discount Analysis Dashboard
 - Sales Trend Analysis with Interactive Filters
 
 📁 Files:  
-- `week4_powerbi_superstore_data_modelling.pbix`
+- `week4_powerbi_superstore_data_modelling.pbix`,'week5_powerbi_superstore_dashboard.pbix'
 
 ---
 
 ## 📈 Learning Progress
 - **Week 1–3**: Excel analysis & dashboard development ✅
-- **Week 4**: Power BI fundamentals & first dashboard (in progress)
+- **Week 4-6**: Power BI fundamentals & first dashboard (in progress)
 - **Future**: SQL and Python for deeper analysis
 
 ---
