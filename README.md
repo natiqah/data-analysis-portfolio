@@ -3,9 +3,15 @@
 This repository contains my data analysis and data visualization projects
 as part of my structured transition into a **Data Analyst** role.
 
-I have completed **Excel-based analysis** (Weeks 1–3) and am currently
-working on **Power BI projects** (Week 4 onwards) to further develop
-interactive dashboards and data modeling skills.
+I have completed **Excel-based analysis (Weeks 1–3)** and **Power BI projects
+(Weeks 4–6)**, where I developed skills in data cleaning, dashboard creation,
+data modeling, DAX calculations, and business insight generation.
+
+I will soon be starting **SQL projects** to strengthen my ability to extract,
+query, and analyze structured datasets for deeper analytical insights.
+
+Each project in this portfolio focuses on solving practical business
+problems and translating data into clear, actionable decisions.
 
 ---
 
@@ -14,8 +20,8 @@ interactive dashboards and data modeling skills.
 ### Done
 - **Excel**: Data cleaning, formulas, Pivot Tables, dashboards, insights reporting
 
-### In Progress
-- **Power BI**: Data modeling, DAX, interactive dashboards
+### Done
+- **Power BI**: Data modeling, DAX, interactive dashboards, advance visualization, business storytelling 
 
 ### Planned
 - **SQL**: Data extraction and basic analysis
@@ -40,19 +46,22 @@ interactive dashboards and data modeling skills.
 
 ---
 
-### Power BI Projects (Weeks 4 onwards) - *In progress*
+### Power BI Projects (Weeks 4 - 6) - ✅
 - Executive Summary Dahsboard
 - Product & Discount Analysis Dashboard
 - Sales Trend Analysis with Interactive Filters
+- Product Drill Through & Tooltip 
+- Dynamic Title
+- Robust Data Modeling Practice using DAX for Year-Moth Sort
 
 📁 Files:  
-- `week4_powerbi_superstore_data_modelling.pbix`,'week5_powerbi_superstore_dashboard.pbix'
+- `week4_powerbi_superstore_data_modelling.pbix`,'week5_powerbi_superstore_dashboard.pbix', 'week6_powerbi_superstore_advance_analysis.pbix'
 
 ---
 
 ## 📈 Learning Progress
 - **Week 1–3**: Excel analysis & dashboard development ✅
-- **Week 4-6**: Power BI fundamentals & first dashboard (in progress)
+- **Week 4-6**: Power BI fundamentals & first dashboard ✅
 - **Future**: SQL and Python for deeper analysis
 
 ---
