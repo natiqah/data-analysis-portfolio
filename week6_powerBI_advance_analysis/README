@@ -1,0 +1,112 @@
+#Week 6 - Advanced Power BI Business Performance Dashboard
+
+📌 Project Overview
+This project presents a multi-page Power BI dashboard analyzing business performance across sales, profit, product categories, discount strategies, and regional contribution.
+
+The goal is to move beyond descriptive reporting and identify key performance drivers, profitability issues, and operational risks using interactive BI features and robust data modeling.
+
+This dashboard simulates an executive-level reporting environment, providing both high-level overviews and drill-down capabilities for granular analysis.
+
+🗂️ Dataset: 
+Sample Superstore dataset (Kaggle)
+
+🛠️ Tool: 
+- Power BI Desktop
+- DAX (Dynamic Title, YearMonthNumber for line chart sorting)
+
+🎯 Business Objectives
+1. Analyze overall sales and profitability performance
+2. Identify category and sub-category contribution
+3. Evaluate the impact of discount strategies on margins
+4. Detect recurring loss-generating products
+5. Provide executive-level insights for decision-making
+
+📂 Report Structure
+Page 1 - Executive Overview
+High-Level Performance snapshot for management. Includes:
+- KPI cards: Total Sales, Total Profit, Profit Margin, Sales YoY
+- Monthly sales trend analysis
+- Sales by region
+- Profit by category
+- Global slicers for Year, Region, and Segment (synced across pages)
+
+Purpose: Provide quick insight overall business health.
+
+Page 2 - Product & Discount Analysis
+Deeper investigation into profitability and discount impact. Includes:
+- Profit by sub-category
+- Discount vs Profit scatter analysis
+- Top 10 products by profit
+- Page-level slicers for category-based exploration
+
+Purpose: Identify key revenue drivers and loss contributors
+
+Page 3 - Product Drill-Through Page
+Interactive drill-through allowing users to:
+- Right-click a Category or Sub-Category
+- View detailed product-level performance
+- Includes:
+	Product Name
+	Total Sales
+	Total Profit
+	Profit Margin
+
+Purpose: Enable granular investigation of performance issues.
+
+Page 4 - Custom Tooltip Page
+Enhanced user experience using report page tooltips. Displays:
+- Total Sales
+- Total Profit
+- Profit Margin
+- Top 5 Products
+
+Purpose: Provide contextual insights without navigating away from the main dashboard.
+
+Page 5 - Executive Insights
+Text-based summary translating data findings into actionable business insights.
+
+KEY INSIGHTS:
+📈 Sales demonstrate consistent year-end seasonality across all years, primarily driven by Technology demand, while early-year performance remains softer.
+💻 Technology is the primary revenue and profit contributor, generating the highest sales and margins despite promotional discounts, indicating resilient customer demand.
+⚠ Furniture underperforms in profitability despite strong sales volume, with margins significantly impacted by discount strategies.
+🌍 The West region leads total sales performance, with Office Supplies contributing the largest share within the region.
+📉 The Tables sub-category consistently generates annual losses, suggesting pricing inefficiencies or unfavorable cost structures.
+
+Purpose: Demonstrate analytical reasoning and executive-level communication beyond visualizations.
+
+🗂 Data Modeling Enhancements
+The Date dimension table includes:
+- Year
+- Month Name
+- Month Number
+- Year-Month
+- YearMonthNumber (numeric sorting key)
+
+Why YearMonthNumber?
+The YearMonthNumber column was added to ensure proper chronological sorting of the Year-Month field across all Power BI versions. Some newer versions of Power BI do not reliably allow sorting Year-Month by Month Number alone, so this additional column guarantees the Sales Trend line chart displays correctly in any environment.
+
+Example DAX:
+YearMonthNumber = YEAR([Date]) * 100 + MONTH([Date])
+
+This ensures:
+- Correct time-series visualization
+- Consistent line chart pattern
+- Compatibility across Power BI versions
+- Robust data modeling practice
+
+🛠 Technical Skills Demonstrated
+- Data modeling: Custom Date dimension, sorting key creation, relationship management
+- DAX measures: KPI calculations, margin analysis, dynamic titles
+- Time intelligence: Trend analysis and YoY calculations
+- Interactive features: Drill-through, report page tooltips, slicers
+- Advanced visualization: Scatter plots, top 10 product rankings, dynamic KPI cards
+- Business storytelling: Executive Insights page
+
+🧠 What This Project Demonstrates
+- Transition from descriptive reporting to structured analytical storytelling
+- Ability to interpret data and provide actionable insights
+- Proficiency in interactivity and UX-aware dashboard design
+- Strong foundation in data modeling and DAX measures
+- This project reflects a progression from Week 5 dashboards to analytical, executive-ready reporting.
+
+📂 Files: 'week6_powerbi_superstore_advance_analysis.pbix'
