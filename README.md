@@ -2,9 +2,9 @@
 
 This repository contains my data analysis and data visualization projects as part of my structured transition into an **Aspiring Data Analyst** role.
 
-The portfolio showcases hands-on projects completed using **Excel** and **Power BI**, with a strong focus on **data cleaning, validation, exploratory analysis, dashboard development, and business insight generation.** These projects are designed to reflect real-world analytical workflows and practical business use cases.
+The portfolio showcases hands-on projects completed using **Excel, Power BI, and SQL,** with a strong focus on **data cleaning, validation, exploratory analysis, dashboard development, and business insight generation.** These projects reflect **real-world analytical workflows** and practical business use cases.
 
-I am currently expanding this portfolio with **SQL** and **Python** projects to strengthen my ability to extract, query, and analyze structured datasets for deeper analytical insights.
+I am currently expanding this portfolio with **SQL projects** to strengthen my ability to **extract, query, and analyze structured datasets** for deeper analytical insights. **Python projects** will be added in the future to further enhance data analysis and visualization skills.
 
 ---
 
@@ -15,7 +15,7 @@ Excel: Data cleaning, formulas, Pivot Tables, dashboards, insight reporting
 Power BI: Data modeling, DAX measures, interactive dashboards, advanced visualizations, business storytelling
 
 ### Planned / In Progress
-SQL: Data extraction and foundational querying for analysis
+SQL: Data extraction and foundational querying for analysis (Weeks 7–9 completed)
 Python: Data analysis and visualization using pandas and basic plotting
 
 ---
@@ -49,11 +49,41 @@ Python: Data analysis and visualization using pandas and basic plotting
 
 ---
 
-## 📈 Learning Progress
-- **Week 1–3**: Excel analysis & dashboard development ✅
-- **Week 4-6**: Power BI data modeling and interactive dashboards ✅
-- **Future**: SQL and Python for deeper analysis
+### SQL Projects (Weeks 7–9) 🟢 In Progress
 
+#### Week 7 — Data Exploration & Understanding
+- Explored table structure, row counts, distinct customers/products
+- Calculated basic statistics for sales and profit
+- Analyzed order distributions by segment and region
+- **Skill focus:** Data validation, basic aggregation, SQL querying
+
+#### Week 8 — Sales & Profit Performance Analysis
+- Total sales per region
+- Profit by category and sub-category
+- Top 10 most profitable products and top 5 customers by sales
+- **Skill focus:** Aggregation, business insight generation, ranking
+
+#### Week 9 — Time-Based & Behavioral Analysis
+- Monthly sales trends (normalized date formats)
+- Discount vs profit analysis using 0.05 intervals
+- Regional product performance
+- Shipping mode analysis
+- **Skill focus:** Trend analysis, bucketed aggregation, operational insights
+
+📁 Files:`week7_sql_data_exploration`, `week8_sql_sales_and_profit_analysis`, `week9_sql_time_based_and_advance_analysis`
+
+#### 💡 Key Notes:
+- SQL outputs are presented as **tables (screenshots of each query result)** with **key insights documented**
+- **Optional visualization (charts/graphs)** may be added in the future to enhance analysis
+- Portfolio demonstrates beginner-to-intermediate SQL skills with professional documentation
+
+---
+
+## 📈 Learning Progress
+- **Week 1–3:** Excel analysis & dashboard development ✅
+- **Week 4-6:** Power BI data modeling and interactive dashboards ✅
+- **Week 7–9:** SQL querying for structured data analysis 🟢 In Progress
+- **Future:** SQL outputs may be visualized in Excel/Power BI; Python projects for advanced analysis 🔹 Planned
 ---
 
 ## 📌 About Me
