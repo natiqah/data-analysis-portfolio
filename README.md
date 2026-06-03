@@ -1,22 +1,24 @@
 # 📊 Data Analysis & Visualization Portfolio
 
-This repository contains my data analysis and data visualization projects as part of my structured transition into an **Aspiring Data Analyst** role.
+This repository showcases my end-to-end data analysis projects as part of my transition into a **Data Analyst role.**
 
-The portfolio showcases hands-on projects completed using **Excel, Power BI, and SQL,** with a strong focus on **data cleaning, validation, exploratory analysis, dashboard development, and business insight generation.** These projects reflect **real-world analytical workflows** and practical business use cases.
+The portfolio demonstrates practical workflows using **Excel, Power BI, and SQL**, covering data cleaning, querying, analysis, and dashboard development. Projects are structured to reflect real-world scenarios where data is extracted using SQL and transformed into actionable insights through visualization tools.
 
-I am currently expanding this portfolio with **SQL projects** to strengthen my ability to **extract, query, and analyze structured datasets** for deeper analytical insights. **Python projects** will be added in the future to further enhance data analysis and visualization skills.
+I have progressed from standalone tool usage (Excel / Power BI) to **integrated workflows (SQL + Excel, SQL + Power BI)** to simulate real business environments.
 
 ---
 
 ## 🔧 Tools & Skills
 
 ### Completed
-Excel: Data cleaning, formulas, Pivot Tables, dashboards, insight reporting
-Power BI: Data modeling, DAX measures, interactive dashboards, advanced visualizations, business storytelling
+**Excel:** Data cleaning, formulas, Pivot Tables, dashboards, insight reporting
+**Power BI:** Data modeling, DAX measures, interactive dashboards, advanced visualizations, business storytelling
+**SQL:** Data extraction & querying, Aggregation and grouping, Data cleaning (e.g., date normalization), Analytical problem-solving
 
-### Planned / In Progress
-SQL: Data extraction and foundational querying for analysis (Weeks 7–9 completed)
-Python: Data analysis and visualization using pandas and basic plotting
+### Currently Expanding 
+- SQL integration with visualization tools
+- Business-focused data storytelling
+- Preparing for Python-based analysis
 
 ---
 
@@ -37,7 +39,7 @@ Python: Data analysis and visualization using pandas and basic plotting
 
 ---
 
-### Power BI Projects (Weeks 4 - 6) - ✅
+### Power BI Projects (Weeks 4 - 6) ✅
 - Executive summary dashboard for high-level performance tracking
 - Product and discount analysis dashboard
 - Sales trend analysis with interactive filters
@@ -49,7 +51,7 @@ Python: Data analysis and visualization using pandas and basic plotting
 
 ---
 
-### SQL Projects (Weeks 7–9) 🟢 In Progress
+### SQL Projects (Weeks 7–9) ✅
 
 #### Week 7 — Data Exploration & Understanding
 - Explored table structure, row counts, distinct customers/products
@@ -72,22 +74,57 @@ Python: Data analysis and visualization using pandas and basic plotting
 
 📁 Files:`week7_sql_data_exploration`, `week8_sql_sales_and_profit_analysis`, `week9_sql_time_based_and_advance_analysis`
 
+### SQL + Excel Integration (Week 10) ✅
+- Exported SQL query outputs into Excel
+- Created charts and mini dashboards from SQL results
+- Visualized:
+    Monthly sales trends
+    Profit vs discount behavior
+    Sales by region
+    Top products performance
+- **Skill Focus:** Data integration, Visualization from query outputs, Translating SQL results into business insights
+
+📁 Files:`week10_sql_excel`
+
+### SQL + Power BI Integration (Week 11) ✅
+- Built Power BI dashboards using SQL-processed data
+- Designed structured multi-page BI report:
+- **Dashboard Pages:**
+  *Page 1* — Executive KPI Overview
+  High-level performance metrics and trend analysis
+  *Page 2* — Product Performance Analysis
+  Category → Product level performance (sales, profit, margin)
+  *Page 3* — Shipping Analytics
+  Comparison of shipping modes (usage vs delivery efficiency)
+  *Page 4* — Category Profitability Analysis
+  Profitability patterns across category and sub-category levels
+- **Skill Focus:** Data modeling using fact tables, DAX measures for dynamic calculations, Interactive filtering and report structuring, Business-oriented dashboard design
+
+📁 Files:`week11_sql_powerbi`,
+
 #### 💡 Key Notes:
-- SQL outputs are presented as **tables (screenshots of each query result)** with **key insights documented**
-- **Optional visualization (charts/graphs)** may be added in the future to enhance analysis
-- Portfolio demonstrates beginner-to-intermediate SQL skills with professional documentation
+- Demonstrates progression from **tool-based analysis → integrated workflows**
+- Combines **SQL querying + visualization tools**
+- Focuses on **business insights, not just technical outputs**
+- Uses structured dashboard design (summary → detail → operations → insights)
 
 ---
 
 ## 📈 Learning Progress
 - **Week 1–3:** Excel analysis & dashboard development ✅
 - **Week 4-6:** Power BI data modeling and interactive dashboards ✅
-- **Week 7–9:** SQL querying for structured data analysis 🟢 In Progress
-- **Future:** SQL outputs may be visualized in Excel/Power BI; Python projects for advanced analysis 🔹 Planned
+- **Week 7–9:** SQL querying for structured data analysis ✅
+- **Weeks 10–11:** SQL + Excel & SQL + Power BI integration ✅
+- **Next:** Python for advanced data analysis 🔹
+
 ---
 
 ## 📌 About Me
-I am an aspiring **Data Analyst** with experience in data evaluation, reporting, and analytics across government projects and AI evaluation roles. I am currently building hands-on projects using Excel and Power BI to strengthen my analytical and business problem-solving skills.
+I am an aspiring Data Analyst with experience in:
+- Data evaluation and QA for AI systems
+- Government-related data analysis and reporting
+- Structured analytical problem-solving
+I am currently building a portfolio that reflects both **technical capability and business understanding.**
 
 ---
 
